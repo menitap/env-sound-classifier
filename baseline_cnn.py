@@ -1,7 +1,8 @@
 
 
 # BASELINE 1D CNN MODEL
-
+import tensorflow as tf
+from config import NUM_SAMPLES, NUM_CLASSES, LEARNING_RATE
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import (
     Input,
