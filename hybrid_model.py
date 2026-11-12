@@ -50,4 +50,4 @@ hybrid_model = build_hybrid_model()
 print("Hybrid CNN-BiGRU model created successfully!")
 hybrid_model.summary()
 
-hybrid_model.summary()
+
