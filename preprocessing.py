@@ -401,7 +401,10 @@ def load_and_preprocess_audio(
         target_samples=target_samples,
     )
 
-
+def load_and_preprocess(audio_path):
+    """Compatibility wrapper for the training pipeline."""
+    return load_and_preprocess_audio(audio_path)
+    
 def create_batch_generator(
     metadata: pd.DataFrame,
     audio_root: Union[str, Path],
