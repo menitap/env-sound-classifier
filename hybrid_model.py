@@ -1,6 +1,20 @@
 
 # HYBRID 1D CNN + BiGRU MODEL
+import tensorflow as tf
 
+from config import NUM_SAMPLES, NUM_CLASSES, LEARNING_RATE
+
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import (
+    Input,
+    Conv1D,
+    MaxPooling1D,
+    BatchNormalization,
+    Dense,
+    Dropout,
+    Bidirectional,
+    GRU
+)
 from tensorflow.keras.layers import Bidirectional, GRU
 
 def build_hybrid_model():
@@ -44,10 +58,5 @@ def build_hybrid_model():
 
     return model
 
-# Build hybrid model
-hybrid_model = build_hybrid_model()
-
-print("Hybrid CNN-BiGRU model created successfully!")
-hybrid_model.summary()
 
 
