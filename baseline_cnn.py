@@ -51,8 +51,4 @@ def build_cnn_model():
 
     return model
 
-# Build the model
-cnn_model = build_cnn_model()
 
-print("Baseline CNN created successfully!")
-cnn_model.summary()
