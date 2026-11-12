@@ -1,0 +1,2 @@
+"""frontend.views package initialization."""
+

@@ -1,0 +1,11 @@
+{
+  "baseline_cnn": {
+    "model_name": "Baseline 1D CNN",
+    "accuracy": 0.5974,
+    "precision": 0.6957,
+    "recall": 0.5974,
+    "f1_score": 0.6059,
+    "loss": 1.5369,
+    "inference_time_sec": 1.879
+  }
+}
