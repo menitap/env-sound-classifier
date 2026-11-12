@@ -55,5 +55,3 @@ cnn_model = build_cnn_model()
 
 print("Baseline CNN created successfully!")
 cnn_model.summary()
-
-cnn_model.summary()
