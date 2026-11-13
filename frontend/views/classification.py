@@ -49,7 +49,7 @@ def render_classification_view() -> None:
         selected_model_name = st.selectbox(
             "Select Architecture for Inference:",
             options=list(models_info.keys()),
-            index=min(1, len(models_info) - 1),
+            index=0,
         )
 
     model_meta = models_info[selected_model_name]

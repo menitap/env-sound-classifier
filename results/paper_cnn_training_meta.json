@@ -1,0 +1,9 @@
+{
+  "model_name": "paper_cnn",
+  "model_path": "D:\\Projects\\envsoundclass\\env-sound-classifier\\saved_models\\paper_cnn.keras",
+  "training_time_sec": 1692.03,
+  "epochs_run": 5,
+  "best_val_accuracy": 0.5174999833106995,
+  "best_val_loss": 1.7537175416946411,
+  "batch_size": 32
+}
