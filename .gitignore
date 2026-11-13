@@ -1,2 +1,15 @@
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Temporary files
+*.log
+.DS_Store
+
+# Dataset
+UrbanSound8K/

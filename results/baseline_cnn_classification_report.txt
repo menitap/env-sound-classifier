@@ -1,0 +1,20 @@
+Model: Baseline 1D CNN
+Test Accuracy : 0.5974
+Test Loss     : 1.5369
+
+                  precision    recall  f1-score   support
+
+ air_conditioner     0.8750    0.4900    0.6282       100
+        car_horn     0.7500    0.5455    0.6316        33
+children_playing     0.3712    0.8500    0.5167       100
+        dog_bark     0.8657    0.5800    0.6946       100
+        drilling     0.5962    0.6200    0.6078       100
+   engine_idling     0.7083    0.5484    0.6182        93
+        gun_shot     0.8621    0.7812    0.8197        32
+      jackhammer     0.9355    0.6042    0.7342        96
+           siren     0.7188    0.2771    0.4000        83
+    street_music     0.4383    0.7100    0.5420       100
+
+        accuracy                         0.5974       837
+       macro avg     0.7121    0.6006    0.6193       837
+    weighted avg     0.6957    0.5974    0.6059       837

@@ -1,0 +1,9 @@
+{
+  "model_name": "baseline_cnn",
+  "model_path": "C:\\class\\aiml\\project\\env-sound-classifier\\saved_models\\baseline_cnn.keras",
+  "training_time_sec": 4130.87,
+  "epochs_run": 47,
+  "best_val_accuracy": 0.6188725233078003,
+  "best_val_loss": 2.536214590072632,
+  "batch_size": 32
+}

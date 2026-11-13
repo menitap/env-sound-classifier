@@ -8,9 +8,13 @@ from training_augmentation import augment_audio
 
 # Project and dataset paths
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
-DATASET_PATH = os.path.join(os.path.dirname(PROJECT_DIR), "archive")
+DATASET_PATH = os.environ.get(
+    "URBANSOUND8K_PATH",
+    os.path.join(os.path.dirname(PROJECT_DIR), "archive")
+)
 
-METADATA_PATH = os.path.join(DATASET_PATH, "UrbanSound8K.csv")
+METADATA_PATH = os.path.join(DATASET_PATH, "metadata", "UrbanSound8K.csv")
+AUDIO_PATH = os.path.join(DATASET_PATH, "audio")
 
 
 def load_dataset(folds, augmented=False):
@@ -50,7 +54,7 @@ def load_dataset(folds, augmented=False):
     for _, row in selected.iterrows():
 
         audio_path = os.path.join(
-            DATASET_PATH,
+            AUDIO_PATH,
             f"fold{row['fold']}",
             row["slice_file_name"]
         )
