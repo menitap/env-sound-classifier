@@ -1,0 +1,19 @@
+{
+  "model": "baseline_cnn_augmented",
+  "split": "test",
+  "fold": 10,
+  "results": {
+    "snr_20db": {
+      "snr_db": 20,
+      "test_accuracy": 0.45639187574671447
+    },
+    "snr_10db": {
+      "snr_db": 10,
+      "test_accuracy": 0.1827956989247312
+    },
+    "snr_5db": {
+      "snr_db": 5,
+      "test_accuracy": 0.15053763440860216
+    }
+  }
+}

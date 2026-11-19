@@ -1,0 +1,19 @@
+{
+  "model": "svm_augmented",
+  "split": "test",
+  "fold": 10,
+  "results": {
+    "snr_20db": {
+      "snr_db": 20,
+      "test_accuracy": 0.6188769414575866
+    },
+    "snr_10db": {
+      "snr_db": 10,
+      "test_accuracy": 0.5161290322580645
+    },
+    "snr_5db": {
+      "snr_db": 5,
+      "test_accuracy": 0.38829151732377537
+    }
+  }
+}

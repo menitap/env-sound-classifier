@@ -1,0 +1,19 @@
+{
+  "model": "rf_original",
+  "split": "test",
+  "fold": 10,
+  "results": {
+    "snr_20db": {
+      "snr_db": 20,
+      "test_accuracy": 0.6439665471923537
+    },
+    "snr_10db": {
+      "snr_db": 10,
+      "test_accuracy": 0.43608124253285546
+    },
+    "snr_5db": {
+      "snr_db": 5,
+      "test_accuracy": 0.3966547192353644
+    }
+  }
+}

@@ -1,3 +1,4 @@
+
 """frontend.config
 
 Configuration constants, paths, and settings for the Streamlit application.
@@ -32,7 +33,10 @@ NOISE_EVAL_PATH = Path(
 
 # Optional UrbanSound8K dataset audio path for quick sample selection
 URBANSOUND8K_AUDIO_DIR = Path(
-    os.environ.get("URBANSOUND8K_AUDIO_DIR", r"C:\datasets\UrbanSound8K\audio")
+    os.environ.get(
+        "URBANSOUND8K_AUDIO_DIR",
+        r"C:\Users\madhu\OneDrive\Desktop\datasets"
+    )
 )
 
 # Audio Parameters (Must match preprocessing.py)
@@ -88,4 +92,3 @@ COLORS = {
     "warning": "#F59E0B",
     "danger": "#EF4444",
 }
-

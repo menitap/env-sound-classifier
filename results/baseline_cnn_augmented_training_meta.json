@@ -1,0 +1,9 @@
+{
+  "model_name": "baseline_cnn_augmented",
+  "model_path": "saved_models\\baseline_cnn_augmented.keras",
+  "training_time_sec": 11472.06,
+  "epochs_run": 50,
+  "best_val_accuracy": 0.6899999976158142,
+  "best_val_loss": 1.4965802431106567,
+  "batch_size": 32
+}

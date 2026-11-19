@@ -1,11 +1,20 @@
 {
   "baseline_cnn": {
     "model_name": "Baseline 1D CNN",
-    "accuracy": 0.5974,
-    "precision": 0.6957,
-    "recall": 0.5974,
-    "f1_score": 0.6059,
-    "loss": 1.5369,
-    "inference_time_sec": 1.879
+    "accuracy": 0.1947,
+    "precision": 0.2414,
+    "recall": 0.1947,
+    "f1_score": 0.1246,
+    "loss": 24.0649,
+    "inference_time_sec": 3.262
+  },
+  "cnn_bigru": {
+    "model_name": "Hybrid CNN-BiGRU",
+    "accuracy": 0.411,
+    "precision": 0.4291,
+    "recall": 0.411,
+    "f1_score": 0.4066,
+    "loss": 1.6678,
+    "inference_time_sec": 6.59
   }
 }

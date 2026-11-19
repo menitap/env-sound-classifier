@@ -13,3 +13,14 @@ env/
 
 # Dataset
 UrbanSound8K/
+# Generated ML feature cache
+feature_cache/
+
+# Newly generated model binaries (keep local)
+saved_models/*.joblib
+
+# ML virtual environment
+.venv_ml/
+
+# Generated cache files
+*.pkl
